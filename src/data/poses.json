@@ -1,0 +1,58 @@
+{
+  "poses": {
+    "idle": {
+      "key": { "bodyY": 0, "torsoLean": 0, "armL": 0.1, "armR": -0.1, "legL": 0, "legR": 0 },
+      "anticipation": { "bodyY": -0.02, "torsoLean": 0.05, "armL": 0.2, "armR": -0.2, "legL": -0.05, "legR": -0.05 },
+      "transition": { "bodyY": 0, "torsoLean": 0.02, "armL": 0.15, "armR": -0.15, "legL": 0, "legR": 0 },
+      "recovery": { "bodyY": 0, "torsoLean": 0, "armL": 0.1, "armR": -0.1, "legL": 0, "legR": 0 }
+    },
+    "jump_anticipation": {
+      "key": { "bodyY": -0.08, "torsoLean": 0.15, "armL": -0.3, "armR": -0.3, "legL": -0.1, "legR": -0.1 },
+      "anticipation": { "bodyY": -0.12, "torsoLean": 0.2, "armL": -0.4, "armR": -0.4, "legL": -0.15, "legR": -0.15 },
+      "transition": { "bodyY": -0.05, "torsoLean": 0.1, "armL": -0.2, "armR": -0.2, "legL": -0.08, "legR": -0.08 },
+      "recovery": { "bodyY": 0, "torsoLean": 0, "armL": 0.1, "armR": -0.1, "legL": 0, "legR": 0 }
+    },
+    "launch": {
+      "key": { "bodyY": 0.05, "torsoLean": -0.1, "armL": 0.5, "armR": 0.5, "legL": 0.2, "legR": 0.2 },
+      "anticipation": { "bodyY": -0.08, "torsoLean": 0.15, "armL": -0.3, "armR": -0.3, "legL": -0.1, "legR": -0.1 },
+      "transition": { "bodyY": 0.08, "torsoLean": -0.15, "armL": 0.6, "armR": 0.6, "legL": 0.25, "legR": 0.25 },
+      "recovery": { "bodyY": 0, "torsoLean": 0, "armL": 0.1, "armR": -0.1, "legL": 0, "legR": 0 }
+    },
+    "hang": {
+      "key": { "bodyY": 0.02, "torsoLean": 0, "armL": 0.3, "armR": 0.3, "legL": 0.05, "legR": 0.05 },
+      "anticipation": { "bodyY": 0.05, "torsoLean": -0.05, "armL": 0.4, "armR": 0.4, "legL": 0.1, "legR": 0.1 },
+      "transition": { "bodyY": 0.03, "torsoLean": 0, "armL": 0.35, "armR": 0.35, "legL": 0.08, "legR": 0.08 },
+      "recovery": { "bodyY": 0, "torsoLean": 0, "armL": 0.1, "armR": -0.1, "legL": 0, "legR": 0 }
+    },
+    "fall": {
+      "key": { "bodyY": 0, "torsoLean": 0.05, "armL": 0.4, "armR": 0.4, "legL": 0.1, "legR": -0.05 },
+      "anticipation": { "bodyY": 0.02, "torsoLean": 0, "armL": 0.3, "armR": 0.3, "legL": 0.05, "legR": 0.05 },
+      "transition": { "bodyY": -0.02, "torsoLean": 0.08, "armL": 0.5, "armR": 0.5, "legL": 0.12, "legR": -0.08 },
+      "recovery": { "bodyY": 0, "torsoLean": 0, "armL": 0.1, "armR": -0.1, "legL": 0, "legR": 0 }
+    },
+    "land": {
+      "key": { "bodyY": -0.1, "torsoLean": 0.2, "armL": -0.2, "armR": -0.2, "legL": -0.15, "legR": -0.15 },
+      "anticipation": { "bodyY": -0.05, "torsoLean": 0.1, "armL": 0, "armR": 0, "legL": -0.08, "legR": -0.08 },
+      "transition": { "bodyY": -0.12, "torsoLean": 0.25, "armL": -0.3, "armR": -0.3, "legL": -0.2, "legR": -0.2 },
+      "recovery": { "bodyY": 0, "torsoLean": 0, "armL": 0.1, "armR": -0.1, "legL": 0, "legR": 0 }
+    },
+    "run": {
+      "key": { "bodyY": 0.02, "torsoLean": 0.1, "armL": 0.4, "armR": -0.4, "legL": 0.15, "legR": -0.15 },
+      "anticipation": { "bodyY": 0, "torsoLean": 0.05, "armL": 0.2, "armR": -0.2, "legL": 0.08, "legR": -0.08 },
+      "transition": { "bodyY": 0.03, "torsoLean": 0.12, "armL": 0.5, "armR": -0.5, "legL": 0.2, "legR": -0.2 },
+      "recovery": { "bodyY": 0, "torsoLean": 0, "armL": 0.1, "armR": -0.1, "legL": 0, "legR": 0 }
+    },
+    "victory": {
+      "key": { "bodyY": 0.05, "torsoLean": -0.1, "armL": 0.8, "armR": 0.8, "legL": 0.1, "legR": 0.1 },
+      "anticipation": { "bodyY": -0.05, "torsoLean": 0.1, "armL": 0.2, "armR": 0.2, "legL": 0, "legR": 0 },
+      "transition": { "bodyY": 0.08, "torsoLean": -0.15, "armL": 1.0, "armR": 1.0, "legL": 0.15, "legR": 0.15 },
+      "recovery": { "bodyY": 0, "torsoLean": 0, "armL": 0.3, "armR": 0.3, "legL": 0, "legR": 0 }
+    },
+    "damage": {
+      "key": { "bodyY": -0.05, "torsoLean": 0.3, "armL": -0.5, "armR": 0.5, "legL": -0.1, "legR": 0.1 },
+      "anticipation": { "bodyY": 0, "torsoLean": 0, "armL": 0.1, "armR": -0.1, "legL": 0, "legR": 0 },
+      "transition": { "bodyY": -0.08, "torsoLean": 0.35, "armL": -0.6, "armR": 0.6, "legL": -0.12, "legR": 0.12 },
+      "recovery": { "bodyY": 0, "torsoLean": 0, "armL": 0.1, "armR": -0.1, "legL": 0, "legR": 0 }
+    }
+  }
+}

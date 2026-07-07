@@ -1,0 +1,29 @@
+{
+  "presetId": "lab-winner-b",
+  "evidenceRef": "EVD-lab-sweep-gap-13-22",
+  "accelCurve": { "start": 0.35, "peak": 1.0, "end": 0.85 },
+  "decelCurve": { "start": 1.0, "peak": 0.9, "end": 0.4 },
+  "momentumCurve": { "start": 0.6, "peak": 1.0, "end": 0.75 },
+  "airControl": 0.82,
+  "cornerCorrection": 0.18,
+  "groundSnap": 0.08,
+  "ledgeSnap": 0.12,
+  "ledgeSnapDistance": 0.35,
+  "apexHangGravityScale": 0.55,
+  "apexHangVelocityThreshold": 2.5,
+  "landingRecoveryDuration": 0.12,
+  "landingRecoverySpeedScale": 0.65,
+  "fastFallMultiplier": 2.2,
+  "fastFallThreshold": -8,
+  "stepOffset": 0.35,
+  "stepOffsetMin": 0.15,
+  "slopeSpeedScale": 0.92,
+  "platformVelocityTransfer": 0.85,
+  "jumpRatingWeights": {
+    "apex": 0.25,
+    "duration": 0.15,
+    "airControl": 0.2,
+    "correction": 0.2,
+    "landing": 0.2
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "grassland_01",
+  "worldId": "grassland",
+  "name": "Rolling Meadows",
+  "index": 0,
+  "spawn": { "x": 0, "y": 2, "z": 0 },
+  "checkpointCount": 3,
+  "starCount": 3,
+  "coinCount": 20,
+  "hasBoss": true,
+  "hasMiniBoss": false,
+  "platforms": [
+    { "pos": { "x": 0, "y": 0, "z": 0 }, "size": { "x": 20, "y": 1, "z": 20 }, "type": "static" },
+    { "pos": { "x": 0, "y": 2, "z": -8 }, "size": { "x": 6, "y": 1, "z": 6 }, "type": "static" },
+    { "pos": { "x": 8, "y": 4, "z": -12 }, "size": { "x": 4, "y": 1, "z": 4 }, "type": "moving" },
+    { "pos": { "x": -6, "y": 6, "z": -18 }, "size": { "x": 3, "y": 1, "z": 3 }, "type": "spring" },
+    { "pos": { "x": 0, "y": 3, "z": -25 }, "size": { "x": 8, "y": 1, "z": 8 }, "type": "static" }
+  ],
+  "enemies": [
+    { "id": "e1", "type": "walker", "pos": { "x": 5, "y": 1, "z": -5 }, "patrolRadius": 4 },
+    { "id": "e2", "type": "runner", "pos": { "x": -4, "y": 1, "z": -10 }, "patrolRadius": 5 },
+    { "id": "e3", "type": "jumper", "pos": { "x": 0, "y": 4, "z": -20 }, "patrolRadius": 3 }
+  ],
+  "collectibles": [
+    { "id": "c1", "type": "coin", "pos": { "x": 2, "y": 1.5, "z": -3 } },
+    { "id": "c2", "type": "coin", "pos": { "x": -2, "y": 1.5, "z": -6 } },
+    { "id": "c3", "type": "coin", "pos": { "x": 0, "y": 3.5, "z": -8 } },
+    { "id": "c4", "type": "coin", "pos": { "x": 8, "y": 5.5, "z": -12 } },
+    { "id": "c5", "type": "golden_coin", "pos": { "x": -6, "y": 7.5, "z": -18 } },
+    { "id": "s1", "type": "star", "pos": { "x": 0, "y": 5, "z": -25 } }
+  ],
+  "checkpoints": [
+    { "x": 0, "y": 2, "z": 0 },
+    { "x": 0, "y": 4, "z": -15 },
+    { "x": 0, "y": 5, "z": -25 }
+  ],
+  "boss": {
+    "id": "boss_grassland",
+    "name": "Meadow King",
+    "health": 30,
+    "phases": 3,
+    "position": { "x": 0, "y": 5, "z": -30 }
+  }
+}

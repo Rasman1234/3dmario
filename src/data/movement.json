@@ -1,0 +1,22 @@
+{
+  "walkSpeed": 6,
+  "runSpeed": 10,
+  "sprintSpeed": 14,
+  "acceleration": 55,
+  "deceleration": 65,
+  "airAcceleration": 34,
+  "airDeceleration": 10,
+  "jumpForce": 13,
+  "doubleJumpForce": 10,
+  "coyoteTime": 0.14,
+  "jumpBuffer": 0.16,
+  "variableJumpCut": 0.45,
+  "gravity": 22,
+  "maxFallSpeed": 40,
+  "groundPoundSpeed": 30,
+  "wallJumpForceX": 8,
+  "wallJumpForceY": 11,
+  "wallSlideSpeed": 2,
+  "dashSpeed": 20,
+  "dashDuration": 0.2
+}

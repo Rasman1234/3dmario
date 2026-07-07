@@ -1,0 +1,50 @@
+{
+  "presets": [
+    {
+      "id": "preset-a",
+      "label": "Baseline",
+      "labRank": 3,
+      "jumpSuccessRate": 0.62,
+      "movement": {
+        "jumpForce": 12,
+        "gravity": 24,
+        "coyoteTime": 0.12,
+        "jumpBuffer": 0.15,
+        "acceleration": 50,
+        "deceleration": 60,
+        "airAcceleration": 30
+      }
+    },
+    {
+      "id": "preset-b",
+      "label": "Lab Winner",
+      "labRank": 1,
+      "jumpSuccessRate": 0.78,
+      "movement": {
+        "jumpForce": 13,
+        "gravity": 22,
+        "coyoteTime": 0.14,
+        "jumpBuffer": 0.16,
+        "acceleration": 55,
+        "deceleration": 65,
+        "airAcceleration": 34
+      }
+    },
+    {
+      "id": "preset-c",
+      "label": "Expressive",
+      "labRank": 2,
+      "jumpSuccessRate": 0.71,
+      "movement": {
+        "jumpForce": 14,
+        "gravity": 24,
+        "coyoteTime": 0.13,
+        "jumpBuffer": 0.15,
+        "acceleration": 52,
+        "deceleration": 58,
+        "airAcceleration": 36
+      }
+    }
+  ],
+  "active": "preset-b"
+}

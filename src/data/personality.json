@@ -1,0 +1,91 @@
+{
+  "personalities": [
+    {
+      "id": "classic",
+      "label": "Classic",
+      "squashScale": 1.0,
+      "stretchScale": 1.0,
+      "anticipationFrames": 4,
+      "hangFrames": 6,
+      "recoveryFrames": 8,
+      "secondaryIntensity": 1.0,
+      "expressionIntensity": 1.0,
+      "moodVolatility": 0.5
+    },
+    {
+      "id": "agile",
+      "label": "Agile",
+      "squashScale": 0.85,
+      "stretchScale": 1.2,
+      "anticipationFrames": 2,
+      "hangFrames": 4,
+      "recoveryFrames": 5,
+      "secondaryIntensity": 1.3,
+      "expressionIntensity": 1.2,
+      "moodVolatility": 0.7
+    },
+    {
+      "id": "heavy",
+      "label": "Heavy",
+      "squashScale": 1.4,
+      "stretchScale": 0.7,
+      "anticipationFrames": 6,
+      "hangFrames": 3,
+      "recoveryFrames": 12,
+      "secondaryIntensity": 0.6,
+      "expressionIntensity": 0.9,
+      "moodVolatility": 0.3
+    },
+    {
+      "id": "floaty",
+      "label": "Floaty",
+      "squashScale": 0.9,
+      "stretchScale": 1.35,
+      "anticipationFrames": 3,
+      "hangFrames": 10,
+      "recoveryFrames": 6,
+      "secondaryIntensity": 1.1,
+      "expressionIntensity": 1.1,
+      "moodVolatility": 0.6
+    },
+    {
+      "id": "speedrunner",
+      "label": "Speedrunner",
+      "squashScale": 0.75,
+      "stretchScale": 1.15,
+      "anticipationFrames": 1,
+      "hangFrames": 2,
+      "recoveryFrames": 3,
+      "secondaryIntensity": 1.4,
+      "expressionIntensity": 1.3,
+      "moodVolatility": 0.8
+    },
+    {
+      "id": "child_friendly",
+      "label": "Child Friendly",
+      "squashScale": 1.25,
+      "stretchScale": 1.1,
+      "anticipationFrames": 5,
+      "hangFrames": 8,
+      "recoveryFrames": 10,
+      "secondaryIntensity": 1.2,
+      "expressionIntensity": 1.5,
+      "moodVolatility": 0.4
+    }
+  ],
+  "active": "classic",
+  "transitions": {
+    "jump_anticipation": { "duration": 0.08, "curve": "ease_in" },
+    "launch": { "duration": 0.06, "curve": "snap" },
+    "hang": { "duration": 0.15, "curve": "hold" },
+    "fall": { "duration": 0.1, "curve": "linear" },
+    "land": { "duration": 0.1, "curve": "ease_out" },
+    "recovery": { "duration": 0.12, "curve": "ease_in_out" },
+    "idle": { "duration": 0.2, "curve": "ease_in_out" },
+    "turn": { "duration": 0.08, "curve": "snap" },
+    "run": { "duration": 0.1, "curve": "linear" },
+    "stop": { "duration": 0.15, "curve": "ease_out" },
+    "victory": { "duration": 0.5, "curve": "bounce" },
+    "damage": { "duration": 0.2, "curve": "shake" }
+  }
+}

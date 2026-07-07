@@ -1,0 +1,10 @@
+{
+  "walker": { "health": 1, "speed": 2, "damage": 1, "detectionRadius": 8, "attackRadius": 1.5, "points": 100 },
+  "runner": { "health": 1, "speed": 5, "damage": 1, "detectionRadius": 10, "attackRadius": 1.5, "points": 150 },
+  "flyer": { "health": 2, "speed": 3, "damage": 1, "detectionRadius": 12, "attackRadius": 2, "points": 200 },
+  "jumper": { "health": 2, "speed": 3, "damage": 2, "detectionRadius": 8, "attackRadius": 2, "points": 250 },
+  "shooter": { "health": 2, "speed": 1.5, "damage": 1, "detectionRadius": 15, "attackRadius": 12, "points": 300 },
+  "heavy": { "health": 5, "speed": 1, "damage": 3, "detectionRadius": 6, "attackRadius": 2, "points": 500 },
+  "tank": { "health": 10, "speed": 0.8, "damage": 4, "detectionRadius": 5, "attackRadius": 2.5, "points": 800 },
+  "mini_boss": { "health": 20, "speed": 2, "damage": 3, "detectionRadius": 20, "attackRadius": 3, "points": 2000 }
+}

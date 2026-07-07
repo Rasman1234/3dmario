@@ -1,0 +1,17 @@
+export enum PowerUpType {
+  Fire = 'fire',
+  Ice = 'ice',
+  Electric = 'electric',
+  Hammer = 'hammer',
+  Flying = 'flying',
+  Giant = 'giant',
+  Mini = 'mini',
+  Shield = 'shield',
+  Magnet = 'magnet',
+  Speed = 'speed',
+  Star = 'star',
+  TimeSlow = 'time_slow',
+  DoubleCoins = 'double_coins',
+  ExtraLife = 'extra_life',
+  HealthUpgrade = 'health_upgrade',
+}

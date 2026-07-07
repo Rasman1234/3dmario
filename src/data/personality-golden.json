@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "personalityId": "classic",
+  "animationTiming": {
+    "jumpAnticipation": 0.08,
+    "launch": 0.06,
+    "hang": 0.15,
+    "land": 0.1,
+    "recovery": 0.12
+  },
+  "landingFeel": {
+    "cameraShake": 0.15,
+    "dustCount": 8,
+    "soundId": "land"
+  },
+  "expressionAvg": 0.7,
+  "playerRatingAvg": 4.2,
+  "telemetryAvg": 0.72
+}

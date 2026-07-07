@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "presetId": "preset-b",
+  "sceneId": "gap_laboratory",
+  "seed": 42,
+  "ticks": 240,
+  "positionHash": "h3a7f2c1",
+  "metrics": {
+    "jumpSuccessRate": 0.78,
+    "avgLandingVelocity": 2.1,
+    "maxJumpApex": 9.2
+  }
+}

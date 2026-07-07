@@ -1,0 +1,31 @@
+{
+  "name": "3dmario",
+  "version": "0.1.0",
+  "description": "AAA-quality 3D platformer — modular, event-driven, production-ready",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "validate:arch": "node scripts/validate-architecture.mjs",
+    "research:headless": "vitest run src/research/ResearchLab.test.ts",
+    "test:e2e": "playwright test",
+    "test:e2e:install": "playwright install chromium"
+  },
+  "dependencies": {
+    "@dimforge/rapier3d-compat": "^0.19.3",
+    "three": "^0.175.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/three": "^0.175.0",
+    "@vitest/coverage-v8": "^3.2.7",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vitest": "^3.2.4"
+  }
+}

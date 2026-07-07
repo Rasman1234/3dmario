@@ -1,0 +1,17 @@
+{
+  "fire": { "duration": 15, "damageMultiplier": 2, "color": "#ff4400" },
+  "ice": { "duration": 12, "slowFactor": 0.5, "color": "#00ccff" },
+  "electric": { "duration": 10, "chainRadius": 5, "color": "#ffff00" },
+  "hammer": { "duration": 20, "damageMultiplier": 3, "color": "#888888" },
+  "flying": { "duration": 10, "flySpeed": 12, "color": "#ffffff" },
+  "giant": { "duration": 15, "scale": 2, "damageMultiplier": 2, "color": "#ff6600" },
+  "mini": { "duration": 15, "scale": 0.5, "speedMultiplier": 1.5, "color": "#ff99cc" },
+  "shield": { "duration": 20, "color": "#4488ff" },
+  "magnet": { "duration": 15, "radius": 8, "color": "#ff00ff" },
+  "speed": { "duration": 10, "speedMultiplier": 1.8, "color": "#00ff88" },
+  "star": { "duration": 10, "invincible": true, "color": "#ffd700" },
+  "time_slow": { "duration": 8, "timeScale": 0.3, "color": "#aa00ff" },
+  "double_coins": { "duration": 30, "multiplier": 2, "color": "#ffcc00" },
+  "extra_life": { "duration": 0, "lives": 1, "color": "#00ff00" },
+  "health_upgrade": { "duration": 0, "heal": 1, "color": "#ff0066" }
+}

@@ -1,0 +1,10 @@
+{
+  "fixedTimestep": 0.004166666666666667,
+  "simulationHz": 240,
+  "renderHz": 120,
+  "maxFrameTime": 0.25,
+  "gravity": { "x": 0, "y": -24, "z": 0 },
+  "physicsSubsteps": 4,
+  "poolInitialSize": 32,
+  "poolMaxSize": 512
+}
